@@ -33,5 +33,6 @@ def find_cool(arr)
 end
 
 def organize_schools(schools)
+  
 end
 

@@ -25,10 +25,11 @@ def merge_data(keys, data)
 end
 
 def find_cool(arr)
+  cool_arr = []
   arr.each do |hash|
-    hash.find_all { |k, v| v == "cool" }
+    cool_arr << hash.select { |k, v| v == "cool" }
   end
-  
+  cool_arr
 end
 
 def organize_schools

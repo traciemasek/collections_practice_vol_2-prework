@@ -27,9 +27,9 @@ end
 def find_cool(arr)
   cool_arr = []
   arr.each do |hash|
-    cool_arr << hash.select { |k, v| v == "cool" }
+    hash.select { |k, v| v == "cool" }
   end
-  cool_arr
+ 
 end
 
 def organize_schools

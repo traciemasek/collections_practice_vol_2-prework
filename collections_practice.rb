@@ -26,7 +26,7 @@ end
 
 def find_cool(arr)
   arr.each do |hash|
-   return hash.find { |k, v| v == "cool" }
+    hash.find_all { |k, v| v == "cool" }
   end
   
 end
